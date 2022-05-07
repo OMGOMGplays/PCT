@@ -6,28 +6,17 @@ namespace PCT
 {
 	partial class PCTPlayer : Player
 	{
-		public Clothing.Container Clothing = new();
-
-		public PCTPlayer() 
-		{
-		}
-
-		public PCTPlayer(Client cl)
-		{
-			Clothing.LoadFromClient(cl);
-		}
-
 		public override void Respawn()
 		{
 			base.Respawn();
 
 			SetModel("models/citizen/citizen.vmdl");
 		
+			Dress();
+
 			Controller = new WalkController();
 			Animator = new StandardPlayerAnimator();
 			CameraMode = new FixedCamera();
-
-			Clothing.DressEntity(this);
 		}
 	}
 }

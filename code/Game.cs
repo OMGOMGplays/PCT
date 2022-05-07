@@ -25,7 +25,7 @@ namespace PCT
 		{
 			base.ClientJoined( cl );
 
-			var player = new PCTPlayer(cl);
+			var player = new PCTPlayer();
 			player.Respawn();
 			
 			cl.Pawn = player;
