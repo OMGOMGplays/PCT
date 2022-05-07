@@ -1,0 +1,23 @@
+{
+  "Title": "P\u0026CT",
+  "Type": "game",
+  "Org": "oop",
+  "Ident": "pct",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "RootNamespace": "Sandbox",
+  "Metadata": {
+    "MapList": [],
+    "PerMapRanking": false,
+    "LeaderboardType": 0,
+    "RankType": 0,
+    "MapSelect": 2,
+    "GameNetworkType": 1,
+    "MaxPlayers": 0,
+    "MinPlayers": 0
+  }
+}
